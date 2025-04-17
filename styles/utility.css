@@ -6,3 +6,11 @@
     grid-auto-flow: column;
 }
 
+.flex {
+    display: flex;
+}
+
+.flex-flow-col {
+    flex-direction: column;
+}
+
