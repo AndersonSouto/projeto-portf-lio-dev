@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-size: cover;
 }
 
 :root {
@@ -35,4 +36,6 @@ body {
 
 .container {
     max-width: 1366px;
+    padding-inline: 120px;
+    margin-inline: auto;
 }
