@@ -1,55 +1,56 @@
 header {
-    background-image: url("../assets/images/Background_Intro.png");
-    
+    background-image: url("../assets/images/Background_Intro.png");   
     padding-block: 120px 163px;
     align-items: center;
+}
 
-    img {
-        width: 87px;
-        height: 87px;
+section#profile-img {
+
+    div {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border: 2px solid var(--principal-red);
+        border-radius: 99px;
+        justify-content: center;
+    }
+    
+    #martina {
+        align-self: center;
+    }
+    
+    #img-code {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        flex-shrink: 0;
+        bottom: -2px;
+        right: -2px;
     }
 
-    p {
-        color: var(--base-gray-500);
+}
 
+section#text {
+    width: 680px;
+
+    p:nth-child(1) {
+        color: var(--base-gray-500);
+        
         span {
             color: var(--principal-red);
         }
     }
 
     h1 {
-        color: var(--base-gray-600)
+        color: var(--base-gray-600);
+        margin-top: 8px;
+        margin-bottom: 20px;
+    }
+
+    p:nth-child(3) {
+        color: var(--base-gray-400);
     }
 
 }
 
-#avatar {
-    position: relative;
-    width: 112px;
-    height: 112px;
-    justify-self: auto;
-}
-
-#martina {
-    position: absolute;
-}
-
-#img-border {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    border: 2px solid var(--principal-red);
-    border-radius: 99px;
-    top: -2px;
-    left: -2px;
-}
-
-#img-code {
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    flex-shrink: 0;
-    bottom: -2px;
-    right: -2px;
-}
 
