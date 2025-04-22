@@ -1,11 +1,13 @@
 header {
     background-image: url("../assets/images/Background_Intro.png");     
-    padding: 120px 163px 57px;
+    
     align-items: center;
 }
 
 section#header {
     width: 1040px;
+    padding: 120px 163px 57px;
+    box-sizing: content-box;
 }
 
 section#profile-img {
@@ -74,10 +76,9 @@ section#tags {
         align-items: center;
         gap: 8px;
 
-        margin-bottom: 94px;
-        
     }
-
+    
+    margin-bottom: 94px;
 }
 
 
