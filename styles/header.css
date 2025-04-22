@@ -1,11 +1,16 @@
 header {
-    background-image: url("../assets/images/Background_Intro.png");   
-    padding-block: 120px 163px;
+    background-image: url("../assets/images/Background_Intro.png");     
+    padding: 120px 163px 57px;
     align-items: center;
 }
 
-section#profile-img {
+section#header {
+    width: 1040px;
+}
 
+section#profile-img {
+    margin-bottom: 56px;
+    
     div {
         position: relative;
         width: 100px;
@@ -32,10 +37,12 @@ section#profile-img {
 
 section#text {
     width: 680px;
+    margin-bottom: 80px;
+    justify-content: center;
 
     p:nth-child(1) {
         color: var(--base-gray-500);
-        
+
         span {
             color: var(--principal-red);
         }
@@ -49,6 +56,26 @@ section#text {
 
     p:nth-child(3) {
         color: var(--base-gray-400);
+        text-align: center;
+    }
+
+}
+
+section#tags {
+    gap: 16px;
+    a {
+        text-decoration: none;
+        font: var(--text-md);
+        color: var(--base-gray-500);
+        background-color: var(--base-gray-300);
+        padding: 8px 16px;
+        border-radius: 99px;
+
+        align-items: center;
+        gap: 8px;
+
+        margin-bottom: 94px;
+        
     }
 
 }
