@@ -2,10 +2,6 @@
     display: grid;
 }
 
-.grid-flow-col {
-    grid-auto-flow: column;
-}
-
 .flex {
     display: flex;
 }
@@ -36,4 +32,12 @@
 
 .text-sm {
     font: var(--text-sm);
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.gap-20 {
+    gap: 20px;
 }

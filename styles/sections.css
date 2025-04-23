@@ -2,3 +2,54 @@ section {
     align-items: center;
 }
 
+section header {
+    align-items: center;
+    span {
+        font: var(--subtitle);
+        color: var(--main-red);
+        margin-bottom: 8px;
+    }
+
+    h2 {
+        font: var(--title-md);
+        color: var(--base-grey-600);
+    }
+    margin-bottom: 56px;
+}
+
+section#projects {
+    width: 1040px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 24px;
+
+    .card {
+        background-color: var(--base-grey-400);
+        /* gap: 20px; */
+        border-radius: 12px;
+        width: 330px;
+        height: 280px;
+        padding: 12px;
+
+        img {
+            border-radius: 12px;
+            width: 306px;
+        }
+
+        figcaption {
+            
+            padding: 4px;
+            /* gap: 8px; */
+            h3 {
+                font: var(--title-sm);
+                color: var(--base-grey-600);
+            }
+            p {
+                font: var(--text-sm);
+                color: var(--base-grey-500);
+            }
+        }
+        
+    }
+}
+

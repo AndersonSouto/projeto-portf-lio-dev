@@ -6,17 +6,17 @@
 }
 
 :root {
-    --principal-red: #E3646E;
-    --principal-purple: #BB72E9;
-    --principal-blue: #3996DB;
-    --principal-green: #82BC4F;
-    --principal-yellow: #EABD5F;
-    --base-gray-100: #0D0E11;
-    --base-gray-200: #16181D;
-    --base-gray-300: #292C34;
-    --base-gray-400: #878EA1;
-    --base-gray-500: #C0C4CE;
-    --base-gray-600: #E2E4E9;
+    --main-red: #E3646E;
+    --main-purple: #BB72E9;
+    --main-blue: #3996DB;
+    --main-green: #82BC4F;
+    --main-yellow: #EABD5F;
+    --base-grey-100: #0D0E11;
+    --base-grey-200: #16181D;
+    --base-grey-300: #292C34;
+    --base-grey-400: #878EA1;
+    --base-grey-500: #C0C4CE;
+    --base-grey-600: #E2E4E9;
 
     --font-family-asap: "Asap", sans-serif;
     --font-family-inconsolata: "Inconsolata", monospace;
@@ -30,13 +30,17 @@
     --text-sm: 400 14px/140% var(--font-family-maven);
 }
 
-body {
-    background-color: var(--base-gray-300);
+/* body {
+    background-color: var(--base-grey-200);
+} */
+
+main {
+    background-color: var(--base-grey-200);
+    align-items: center;
+    padding: 72px 120px 144px;
 }
 
 .container {
-    /* tirei o max-width da pagina só pra teste, pra ver se fica mais apresentavel */
-    /* max-width: 1366px; */
-    /* padding-inline: 120px; */
+    max-width: 1366px;
     margin-inline: auto;
 }

@@ -1,10 +1,8 @@
-header {
-    background-image: url("../assets/images/Background_Intro.png");     
-    
-    align-items: center;
+header#header {
+    background-image: url("../assets/images/Background_Intro.png");
 }
 
-section#header {
+section#intro {
     width: 1040px;
     padding: 120px 163px 57px;
     box-sizing: content-box;
@@ -17,7 +15,7 @@ section#profile-img {
         position: relative;
         width: 100px;
         height: 100px;
-        border: 2px solid var(--principal-red);
+        border: 2px solid var(--main-red);
         border-radius: 99px;
         justify-content: center;
     }
@@ -43,21 +41,21 @@ section#text {
     justify-content: center;
 
     p:nth-child(1) {
-        color: var(--base-gray-500);
+        color: var(--base-grey-500);
 
         span {
-            color: var(--principal-red);
+            color: var(--main-red);
         }
     }
 
     h1 {
-        color: var(--base-gray-600);
+        color: var(--base-grey-600);
         margin-top: 8px;
         margin-bottom: 20px;
     }
 
     p:nth-child(3) {
-        color: var(--base-gray-400);
+        color: var(--base-grey-400);
         text-align: center;
     }
 
@@ -68,8 +66,8 @@ section#tags {
     a {
         text-decoration: none;
         font: var(--text-md);
-        color: var(--base-gray-500);
-        background-color: var(--base-gray-300);
+        color: var(--base-grey-500);
+        background-color: var(--base-grey-300);
         padding: 8px 16px;
         border-radius: 99px;
 
@@ -80,5 +78,4 @@ section#tags {
     
     margin-bottom: 94px;
 }
-
 
