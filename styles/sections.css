@@ -23,13 +23,18 @@ section#projects {
     justify-items: center;
     gap: 24px;
 
+    figure:hover {
+        outline: 1.5px solid var(--base-grey-600);
+    }
+
     .card {
         background-color: var(--base-grey-400);
-        /* gap: 20px; */
         border-radius: 12px;
         width: 330px;
         height: 280px;
         padding: 12px;
+
+        
 
         img {
             border-radius: 12px;
@@ -51,6 +56,8 @@ section#projects {
         }
         
     }
+
+    
 }
 
 section#services {
@@ -119,12 +126,18 @@ section#links {
             width: 28px;
             height: 28px;
         }
-        img:nth-child(2){
-            width: 20px;
-            height: 20px;
-        }
         p {
             width: 100%;
         }
+        img:nth-child(3){
+            width: 20px;
+            height: 20px;
+        }
+        
+    }
+
+    a:hover{
+        /* border: 1.5px solid var(--main-blue); */
+        outline: 1.5px solid var(--main-blue);
     }
 }
