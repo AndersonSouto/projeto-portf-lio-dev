@@ -30,10 +30,6 @@
     --text-sm: 400 14px/140% var(--font-family-maven);
 }
 
-/* body {
-    background-color: var(--base-grey-200);
-} */
-
 main {
     background-color: var(--base-grey-200);
     align-items: center;
